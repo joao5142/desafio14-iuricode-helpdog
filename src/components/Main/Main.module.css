@@ -1,0 +1,97 @@
+.banner {
+
+    width: 1200px;
+    height: 500px;
+    right: -300px;
+    top: 0px;
+    background: linear-gradient(180deg, #3CB7DE 0%, #3FA3FF 100%);
+    border-radius: 500px 0px 0px 500px;
+    transform: rotate(-17.91deg);
+    overflow: hidden;
+}
+
+.main p {
+    color: var(--purple-dark-color);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.line {
+    position: relative;
+    top: -30px;
+    width: 230px;
+}
+
+.button {
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.contact {
+    text-decoration: none;
+    color: var(--purple-dark-color);
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.main .title {
+    font-family: 'Merriweather';
+
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.content {
+    height: calc(100vh - 90px);
+}
+
+.dog {
+    position: absolute;
+    width: 500px;
+    bottom: -18px;
+    transform: rotate(17.91deg);
+    left: 50px;
+    height: 460px;
+
+    max-height: 100%;
+
+}
+
+.food {
+    position: absolute;
+    transform: rotate(17.91deg);
+
+    bottom: 0px;
+    left: 10px;
+
+}
+
+
+@media(max-width:992px) {
+    .banner_container {
+        position: absolute;
+        top: 100px;
+
+        z-index: -2;
+    }
+
+    .main p {
+        text-align: center;
+    }
+
+    .content {
+        margin: 0 auto;
+        flex: 2;
+
+    }
+
+    .main .line {
+        margin: 0 auto;
+    }
+
+    .button_container {
+        margin: 0 auto;
+    }
+}
