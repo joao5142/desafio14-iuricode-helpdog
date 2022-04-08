@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
  </div>
 <h2>Preview</h2>
-<img margin-bottom="20px" src="public/assets/readme.PNG"">
-<img margin-bottom="20px" src="public/assets/readme2.PNG"">
-<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://desafio12-iuricode-la-pizza.vercel.app/">Preview na Vercel</a>
+<img margin-bottom="20px" src="public/assets/readme1.PNG">
+<hr/>
+<img margin-bottom="20px" src="public/assets/readme2.PNG">
+<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://helpdog.netlify.app/">Preview no Netlify</a>
